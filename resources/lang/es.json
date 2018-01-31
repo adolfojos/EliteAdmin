@@ -66,10 +66,10 @@
     "Support": "Soporte",
     "System error": "Error del sistema",
     "System shutdown": "Apagado del sistema",
-    "texto": "texto",
-    "texto": "texto",
-    "texto": "texto",
-    "texto": "texto",
+    "Don t have an account?": "No tienes una cuenta?",
+    "Enter your Email and instructions will be sent to you!": "¡Ingrese su correo electrónico y le enviaremos las instrucciones!",
+    "Recover Password": "Recuperar contraseña",
+    "Reset": "Reiniciar",
     "texto": "texto",
     "Toggle Navigation": "Barras de navegación",
     "Type of User":"Tipo de Usuario",
@@ -77,6 +77,27 @@
     "User Notifications": "Notificaciones de usuario",
     "User": "Usuario",
     "Users": "Usuarios",
-    "You are logged in!": "¡Has iniciado sesión!"
+    "Username": "Nombre de usuario",
+    "You are logged in!": "¡Has iniciado sesión!",
+    "Login with" :"Inicia con",
+    "Page Not Found !" :"Página no encontrada !",
+    "Back to home" :"Regresar a Inicio",
+    "Service Panel" :"Panel de Servicio",
+    "Main Menu" :"Menú principal",
+    "Account Setting" :"Configuración de cuenta",
+    "My Balance" :"Mi balance",
+    "Inbox" :"Bandeja de entrada",
+    "online" :"en línea",
+    "Away" :"Ausente",
+    "Offline" :"Desconectado",
+    "Busy" :"Ocupado",
+    "See All Tasks" :"Ver todas las tareas",
+    "Complete" :"Completado",
+    "txt" :"txt",
+    "txt" :"txt",
+    "txt" :"txt",
+    "txt" :"txt"
+
+
    
 }

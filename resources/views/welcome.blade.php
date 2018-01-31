@@ -69,25 +69,25 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">{{__('Home')}}</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('login') }}">{{__('Login')}}</a>
+                        <a href="{{ route('register') }}">{{__('Register')}}</a>
                     @endauth
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    {{__('Laravel')}}
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">{{__('Documentation')}}</a>
+                    <a href="https://laracasts.com">{{__('Laracasts')}}</a>
+                    <a href="https://laravel-news.com">{{__('News')}}</a>
+                    <a href="https://forge.laravel.com">{{__('Forge')}}</a>
+                    <a href="https://github.com/laravel/laravel">{{__('GitHub')}}</a>
                 </div>
             </div>
         </div>
