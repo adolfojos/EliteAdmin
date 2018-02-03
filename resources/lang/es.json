@@ -50,7 +50,7 @@
     "Production server down": "Servidor de producción abajo",
     "Production server up": "Servidor de producción alto",
     "Purchase": "Compra",
-    "Register": "Registrase",
+    "Register": "Crear una cuenta",
     "register_button": "Regístrate!",
     "register_title": "Registro",
     "Remember me": "Recuérdame",
@@ -93,10 +93,18 @@
     "Busy" :"Ocupado",
     "See All Tasks" :"Ver todas las tareas",
     "Complete" :"Completado",
-    "txt" :"txt",
-    "txt" :"txt",
-    "txt" :"txt",
+    "brought to you by" :"traído a usted por",
+    "All users" :"Todos los Usuarios",
+    "Id User" :"Id Usuario",
+    "Nationality" :"Nacionalidad",
+    "Dni" :"Dni",
+    "Full name" :"Nombre Completo",
+    "Age" :"Edad",
+    "Birthdate" :"Fecha de Nacimiento",
+    "Id" :"Id",
+    "txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt","txt" :"txt",
     "txt" :"txt"
+    
 
 
    

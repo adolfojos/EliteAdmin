@@ -38,7 +38,7 @@
                             <li>
                                 <div class="message-center">
                                     <a href="#">
-                                        <div class="user-img"> <img src="../plugins/images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                        <div class="user-img"> <img src="{{asset('plugins/images/users/pawandeep.jpg')}}" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Pavan kumar</h5>
                                             <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span>
@@ -82,7 +82,7 @@
                         @else
                     <!-- .user dropdown -->
                     <li class="dropdown">
-                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="../plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">{{ Auth::user()->name }}</b> </a>
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="{{ asset('plugins/images/users/varun.jpg')}}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">{{ Auth::user()->first_name }} {{Auth::user()->last_name}}</b> </a>
                         <ul class="dropdown-menu dropdown-user scale-up">
                             <li><a href="#"><i class="ti-user"></i> {{__('My Profile')}}</a></li>
                             <li><a href="#"><i class="ti-wallet"></i> {{__('My Balance')}}</a></li>
