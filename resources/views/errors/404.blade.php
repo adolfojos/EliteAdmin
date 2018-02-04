@@ -9,7 +9,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="shortcut icon" href="{{asset('plugins/images/favicon.png')}}" />
-        <title>@yield('title', 'Principal') » {{ config('app.name', 'Elite Admin') }}</title>
+        <title>@yield('title', '404') » {{ config('app.name', 'Elite Admin') }}</title>
         <link href="{{ asset('bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('plugins/bower/bootstrap-extension/css/bootstrap-extension.css') }}" rel="stylesheet">
         @yield('style')

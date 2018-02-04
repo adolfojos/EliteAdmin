@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-@include('component.breadcrumb', ['title' => __('All users'), 'list' => ['item'=>'Dashboard', __('All users')]])
+    @include('component.breadcrumb', ['title' => __('All users'), 'list' => ['item'=>'Dashboard', __('All users')]])
     <div class="row">
         <div class="col-sm-12">
             <div class="white-box">
@@ -21,7 +21,6 @@
                                 <th>{{__('Nationality')}}</th>
                                 <th>{{__('Dni')}}</th>
                                 <th>{{__('Full name')}}</th>
-
                                 <th>{{__('Email')}}</th>
                                 <th>{{__('Age')}}</th>
                                 <th>{{__('Birthdate')}}</th>
@@ -30,14 +29,14 @@
                         </thead>
                         <tfoot>
                             <tr>
-                            <th>{{__('Id')}}</th>
-                            <th>{{__('Nationality')}}</th>
-                            <th>{{__('Dni')}}</th>
-                            <th>{{__('Full name')}}</th>
+                                <th>{{__('Id')}}</th>
+                                <th>{{__('Nationality')}}</th>
+                                <th>{{__('Dni')}}</th>
+                                <th>{{__('Full name')}}</th>
 
-                            <th>{{__('Email')}}</th>
-                            <th>{{__('Age')}}</th>
-                            <th>{{__('Birthdate')}}</th>
+                                <th>{{__('Email')}}</th>
+                                <th>{{__('Age')}}</th>
+                                <th>{{__('Birthdate')}}</th>
                             </tr>
                         </tfoot>
                         <tbody>
@@ -61,8 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
-    </div>
+    <div class="row"></div>
 @endsection
 @section('script')
     @include('partials.data-tables')
